@@ -11,7 +11,7 @@ function SumOfUniqueElements(nums) {
         }
     }
     console.log(map);
-let sum=0
+    let sum=0
     for(let [key,count] of map){
         if(count<=1){
             sum=sum+key;
